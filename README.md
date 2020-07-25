@@ -1,4 +1,4 @@
 # Test
 
-{::options template="string://<%= Dir.glob("*") %>" /}
+{::options template="string://<%= Dir.glob("../*") %>" /}
 
