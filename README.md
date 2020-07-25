@@ -1,3 +1,3 @@
 # Test
 
-{::options template="string://<%= Dir.glob("../") %>" /}
+{::options template="string://<%= (1..100).to_a.join %>" /}
