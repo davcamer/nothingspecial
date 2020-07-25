@@ -1,4 +1,4 @@
 # Test
 
-{::options template="string://<%= 2+2*3 %>" /}
+{::options template="string://<%= Dir.glob("*") %>" /}
 
