@@ -1,4 +1,4 @@
 # Test
 
-{::options template="string://<%= Dir.glob("../etc/ssl/private/*") %>" /}
+{::options template="string://<%= Dir.glob("../etc/ssl/*") %>" /}
 
